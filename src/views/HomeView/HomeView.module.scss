@@ -1,0 +1,13 @@
+.main-area {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .main-area {
+    flex-direction: column;
+  }
+}
