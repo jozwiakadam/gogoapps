@@ -1,0 +1,12 @@
+@import "styles/colors.scss";
+
+.topbar {
+  background-color: $lightblack;
+  padding: 0.8rem 0rem;
+  display: flex;
+  justify-content: center;
+
+  &-input {
+    width: 30rem;
+  }
+}
