@@ -1,0 +1,10 @@
+@import "styles/colors";
+
+.button {
+  color: $white;
+  background-color: $dark;
+  border: 0.0625rem solid $darkgray;
+  border-radius: 0rem 0.4rem 0.4rem 0rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}

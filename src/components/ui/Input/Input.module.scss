@@ -1,0 +1,14 @@
+@import "styles/colors";
+
+.input {
+  padding: 0.4rem 1rem;
+  border-radius: 0.4rem 0rem 0rem 0.4rem;
+  border: 0.0625rem solid $darkgray;
+  color: $white;
+  background-color: $dark;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
