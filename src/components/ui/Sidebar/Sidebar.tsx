@@ -15,7 +15,14 @@ export type SidebarProps = {
 const Sidebar: React.VFC<SidebarProps> = ({ items, setCurrentVideo }) => (
     <div className={Styles['sidebar']}>
         {items?.map((item: Videos.Video, index) => (
-            <div key={index} onClick={() => setCurrentVideo(item)} className={Styles['sidebar-item']}>
+            <div
+                key={index}
+                onClick={() => {
+                    setCurrentVideo(item);
+                    window.scrollTo(0, 0);
+                }} 
+                className={Styles['sidebar-item']}
+            >
                 <img
                     className={cx(Styles['sidebar-image'])}
                     src={item.snippet.thumbnails.medium.url}

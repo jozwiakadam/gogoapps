@@ -41,7 +41,6 @@ export function* fetchVideosByKeyword(action: ReturnType<typeof actions.fetchVid
 };
 
 export function setCurrentVideo(action: ReturnType<typeof actions.setCurrentVideo.request>) {
-    window.scrollTo(0, 0);
     return action.payload;
 };
 
